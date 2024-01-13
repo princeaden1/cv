@@ -585,7 +585,7 @@
                           <i class="linecons linecons-mail"></i>
                         </div>
                         <div class="ci-text">
-                          <h4>hello@example.com</h4>
+                          <h4>me@aajames.co.uk</h4>
                           <p>Duis erat leo, aliquam laoreet fringilla quis, pretium vitae dui.</p>
                         </div>
                       </div>
