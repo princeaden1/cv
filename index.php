@@ -103,7 +103,7 @@
                 </li>
 
                 <li class="menu-item">
-                  <a href="contact.html">Contact</a>
+                  <a href="#contact_me">Contact</a>
                 </li>
               </ul>
             </div>
@@ -129,7 +129,7 @@
                         
                         <div class="col-sm-12 col-md-5 col-lg-5">
                           <div class="home-photo">
-                            <div class="hp-inner" style="background-image: url(./img/main_photo.jpg);">
+                            <div class="hp-inner" style="background-image: url(./1642112866931.jpeg);">
                             </div>
                           </div>
                         </div>
@@ -155,11 +155,12 @@
                             </div>
                               
                             <h1>Adekunle James, ADENIJI</h1>
-                            <p>I'm a proficient full stack software developer and robotics Engineer with many years experience in developing and deploying numerous robust softwares for solving complex problems to both governmental and non-governmental organisations. Some of the applications developed by our team have been used by over 100,000 users and have been safe in processing millions of payments. One of my notable achievements is deploying a solution that takes a government-owned institution to the third-best institution in Nigeria. I enjoyed writing codes, reading, robotics and continually learning new skills.  </p>
+                            <p align="justify">I'm a proficient full stack software developer and robotics Engineer with many years experience in developing and deploying numerous robust softwares for solving complex problems to both governmental and non-governmental organisations. Some of the applications developed by our team have been used by over 100,000 users and have been safe in processing millions of payments. One of my notable achievements is deploying a solution that takes a government-owned institution to the third-best institution in Nigeria. I enjoyed writing codes, reading, robotics and continually learning new skills.  </p>
                                  
                             <div class="home-buttons">
                               <a href="#" target="_blank" class="btn btn-primary">Download CV</a>
-                              <a href="#" target="_self" class="btn btn-secondary">Contact</a>
+                              <a href="#" target="_self" class="btn btn-secondary">Learn More</a>
+                              <a href="#contact_me" target="_self" class="btn btn-secondary">Contact</a>
                             </div>
                           </div>
                         </div>
@@ -553,26 +554,114 @@
           </div>
         </div>
 
+
+        <div class="row" id="contact_me">
+                  <div class=" col-xs-12 col-sm-4 ">
+                        
+                    <div id="info_list_1" class="info-list-w-icon">
+
+                      <div class="info-block-w-icon">
+                        <div class="ci-icon">
+                          <i class="linecons linecons-phone"></i>
+                        </div>
+                        <div class="ci-text">
+                          <h4>+44 78 235 635 19</h4>
+                          <p>Please call this phone between 9:00 am and 5:00 pm GMT, Monday to Friday.</p>
+                        </div>
+                      </div>
+
+                      <div class="info-block-w-icon">
+                        <div class="ci-icon">
+                          <i class="linecons linecons-location"></i>
+                        </div>
+                        <div class="ci-text">
+                          <h4>United Kingdom</h4>
+                          <p>Manchester, England.</p>
+                        </div>
+                      </div>
+                      
+                      <div class="info-block-w-icon">
+                        <div class="ci-icon">
+                          <i class="linecons linecons-mail"></i>
+                        </div>
+                        <div class="ci-text">
+                          <h4>hello@example.com</h4>
+                          <p>Duis erat leo, aliquam laoreet fringilla quis, pretium vitae dui.</p>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+
+                  <div class=" col-xs-12 col-sm-8 ">
+
+                    <div class="block-title">
+                      <h2>How Can I Help You?</h2>
+                    </div>
+
+                    <form id="contact_form" class="contact-form" action="contact_form/contact_form.php" method="post">
+
+                      <div class="messages"></div>
+
+                      <div class="controls two-columns">
+                        <div class="fields clearfix">
+                          <div class="left-column">
+                            <div class="form-group form-group-with-icon">
+                              <input id="form_name" type="text" name="name" class="form-control" placeholder="Full Name" required="required" data-error="Name is required.">
+                              <div class="form-control-border"></div>
+                              <div class="help-block with-errors"></div>
+                            </div>
+
+                            <div class="form-group form-group-with-icon">
+                              <input id="form_email" type="email" name="email" class="form-control" placeholder="Email Address" required="required" data-error="Valid email is required.">
+                              <div class="form-control-border"></div>
+                              <div class="help-block with-errors"></div>
+                            </div>
+
+                            <div class="form-group form-group-with-icon">
+                              <input id="form_name" type="text" name="subject" class="form-control" placeholder="Subject" required="required" data-error="Subject is required.">
+                              <div class="form-control-border"></div>
+                              <div class="help-block with-errors"></div>
+                            </div>
+                          </div>
+                          <div class="right-column">
+                            <div class="form-group form-group-with-icon">
+                              <textarea id="form_message" name="message" class="form-control" placeholder="Message" rows="7" required="required" data-error="Please, leave me a message."></textarea>
+                              <div class="form-control-border"></div>
+                              <div class="help-block with-errors"></div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI" data-theme="dark"></div>
+      
+                        <input type="submit" class="button btn-send disabled" value="Send message">
+                      </div>
+                    </form>
+
+                  </div>
+
+
+                </div>
         <!-- Footer -->
         <footer class="site-footer clearfix">
           <div class="footer-social">
             <ul class="footer-social-links">
               <li>
-                <a href="#" target="_blank">Twitter</a>
+                <a href="https://github.com/princeaden1" target="_blank">Github</a>
+              </li>
+              
+              <li>
+                <a href="https://www.linkedin.com/in/princeaden1/" target="_blank">LinkedIn</a>
               </li>
 
-              <li>
-                <a href="#" target="_blank">Facebook</a>
-              </li>
-
-              <li>
-                <a href="#" target="_blank">Instagram</a>
-              </li>
+             
             </ul>
           </div>
               
           <div class="footer-copyrights">
-            <p>© 2020 All rights reserved. LMPixels.</p>
+            <p>© <?php echo date('Y');?> All rights reserved. Adekunle Adeniji.</p>
           </div>
         </footer>
         <!-- /Footer -->
